@@ -13,7 +13,7 @@ api_token = ""
 
 # Uncomment to skip the upstream freshness report at the end of each sync run.
 # This avoids unauthenticated GitHub API calls (60 req/hr limit) — useful for CI.
-# show_freshness = false
+show_freshness = false
 
 # Set to true to preview changes without modifying anything.
 dry_run = false
