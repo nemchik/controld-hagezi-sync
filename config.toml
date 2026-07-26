@@ -20,7 +20,7 @@ dry_run = false
 
 [profiles]
 # Exact names of your ControlD profiles (case-sensitive).
-names = ["Gaming Profile", "Kids Profile"]
+names = ["Gaming Profile", "Teens Profile", "Kids Profile"]
 
 # =============================================================================
 # FOLDER DEFINITIONS
@@ -47,6 +47,13 @@ names = ["Gaming Profile", "Kids Profile"]
 "Gaming Profile" = [
   "Badware Hoster",
   "Most Abused TLDs",
+  "Referral Allow",
+  "Known Issues Allow"
+]
+"Teens Profile" = [
+  "Badware Hoster",
+  "Most Abused TLDs",
+  "No Safesearch Support",
   "Referral Allow",
   "Known Issues Allow"
 ]
